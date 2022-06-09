@@ -5,12 +5,13 @@ const headers = {
     mode: 'cors',
     cache: 'default'
 }
+const getCountry = 
 
 function getCountry(country) {
     return fetch(`${path}/${country}`, headers)
     .then((response) => response.json())
 }
 
-export {
+export default {
     getCountry
 }
