@@ -11,8 +11,6 @@ function getCountry(country) {
     .then((response) => response.json())
 }
 
-const getCountry = getCountry
-
 export default {
     getCountry
 }
